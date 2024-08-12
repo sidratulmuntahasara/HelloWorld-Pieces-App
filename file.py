@@ -1,11 +1,11 @@
-import pieces_copilot
+import pieces_copilot_sdk
 
 def main():
     # Print "Hello World"
     print("Hello World")
 
     # Initialize the Pieces Copilot client
-    client = pieces_copilot.Client(api_key='your_api_key_here')
+    client = pieces_copilot_sdk.client(api_key='your_api_key')
 
     # Define the question you want to ask
     question = "What is the capital of France?"
